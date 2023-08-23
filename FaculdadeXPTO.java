@@ -10,4 +10,23 @@ public class FaculdadeXPTO {
         professor.imprimeDados();
     }
 
+    /**
+     *     a. Por que foi possível acessar diretamente o atributo endereço através do
+     *     objeto do tipo professor?
+     *     R: Porque o endereço estava numa superclasse funcionário, que é filha da classe professor.
+     *     E como os atributos podem ser acessados por uma mesma classe, a classe filha faz parte da superclasse.
+     *
+     *     b. Qual o valor da matrícula do objeto do tipo funcionário e do objeto do tipo
+     *     professor?
+     *     R: O valor de ambos vai ser o mesmo, pois o atributo vai herdar o valor da superclasse.
+     *
+     *     c. Por que foi possível imprimir os valores armazenados nos atributos
+     *     privados na classe Funcionário através do método imprimeDados() da
+     *     classe Professor, uma vez que método imprimeDados() foi sobrescrito na
+     *     classe filha?
+     *     R: Porque fez uma sobrecarga dentro do método trazendo o método da superclasse e
+     *     atribuindo normalmente os outros atríbutos da classe filha em imprimirDados().
+     *
+     */
+
 }

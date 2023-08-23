@@ -1,5 +1,5 @@
 
-public class Funcionario extends FaculdadeXPTO{
+public class Funcionario {
 
     private static int gerarMatricula = 0;
 
