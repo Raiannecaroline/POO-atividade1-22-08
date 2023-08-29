@@ -42,7 +42,15 @@ public class Funcionario {
     @Override
     public String toString() {
         return "Funcionario{" +
-                "matricula=" + matricula +
+                "nome='" + nome + '\'' +
+                ", rg='" + rg + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", dataNascimento='" + dataNascimento + '\'' +
+                ", dataAdmissao='" + dataAdmissao + '\'' +
+                ", salario=" + salario +
+                ", matricula=" + matricula +
+                ", cargo='" + cargo + '\'' +
+                ", endereco='" + endereco + '\'' +
                 '}';
     }
 
