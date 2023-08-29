@@ -18,7 +18,7 @@ public class FaculdadeXPTO {
      *
      *     b. Qual o valor da matrícula do objeto do tipo funcionário e do objeto do tipo
      *     professor?
-     *     R: O valor de ambos vai ser o mesmo, pois o atributo vai herdar o valor da superclasse.
+     *     R: O valor de ambos vai ser o mesmo, pois o atributo vai herdar o valor da superclasse. Vai ser 1.
      *
      *     c. Por que foi possível imprimir os valores armazenados nos atributos
      *     privados na classe Funcionário através do método imprimeDados() da
